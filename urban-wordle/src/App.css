@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(23 23 23);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.wrongGuess{
+    background-color: rgb(75, 85, 99);
+}
+
+.closeGuess{
+    background-color: rgb(234, 179, 8);
+}
+
+.rightGuess{
+    background-color: rgb(34, 197, 94);
+}
+
+.delay0{
+    transition-delay: 0ms;
+}
+
+.delay1{
+    transition-delay: 100ms;
+}
+.delay2{
+    transition-delay: 200ms;
+}
+
+.delay3{
+    transition-delay: 300ms;
+}
+
+.delay4{
+    transition-delay: 400ms;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    right: 8px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(21, 31, 45);
+    border-radius: 20px;
+}
+

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+  .style-button{
+    @apply w-40 p-4 rounded-md hover:opacity-80 hover:scale-105 transition-all duration-150;
+  }
+}
