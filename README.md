@@ -3,7 +3,7 @@ React App recreation of popular Wordle game using words scaped from Urban Dictio
 
 ## Folder Structure
 
-### python
+### Python
 
 Python utility functions for scaping urban dictionary, making API calls, and generating word lists
 
@@ -11,7 +11,7 @@ Python utility functions for scaping urban dictionary, making API calls, and gen
 - pairDefinition.py: Grabs words from IN_FILE and using html parsing to pair the word with definition in an output file OUT_FILE
 - convertToLower.py: Converts all letters in INPUT_FILE to lowercase in OUTPUT_FILE
 
-### urban-wordle
+### Urban-wordle
 
 Client side code written using React and TailwindCSS. To start use:
 
@@ -19,11 +19,11 @@ Client side code written using React and TailwindCSS. To start use:
     $npm install
     $npm start
     
-### word_lists
+### Word_lists
 
 Collection of word lists generated from webscraping and stored as individual letters to reduce runtime of getUrbanWordlist.py
 
-### filter-words
+### Filter-words
 
 Secondary client side app written in React and TailwindCSS to assist in filtering unwanted words out from overall wordlist. Can change input file and then download output once complete. To start use:
 
