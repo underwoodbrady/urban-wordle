@@ -1,5 +1,6 @@
 # Urban-Wordle
 React App recreation of popular Wordle game using words scaped from Urban Dictionary with Python.
+
 ![In-Game Screenshot](https://i.imgur.com/oetRWLF.png)
 
 ## Folder Structure
